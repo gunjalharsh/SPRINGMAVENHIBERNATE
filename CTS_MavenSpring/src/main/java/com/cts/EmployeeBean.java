@@ -4,6 +4,34 @@ public class EmployeeBean {
 	int eno;
 	String name;
 	float salary;
+	String Phone;
+	String DeleteEmployee;
+	String UpdateEmployee;
+	String PhoneUpdate;
+	public String getPhone() {
+		return Phone;
+	}
+	public void setPhone(String phone) {
+		Phone = phone;
+	}
+	public String getDeleteEmployee() {
+		return DeleteEmployee;
+	}
+	public void setDeleteEmployee(String deleteEmployee) {
+		DeleteEmployee = deleteEmployee;
+	}
+	public String getUpdateEmployee() {
+		return UpdateEmployee;
+	}
+	public void setUpdateEmployee(String updateEmployee) {
+		UpdateEmployee = updateEmployee;
+	}
+	public String getPhoneUpdate() {
+		return PhoneUpdate;
+	}
+	public void setPhoneUpdate(String phoneUpdate) {
+		PhoneUpdate = phoneUpdate;
+	}
 	public int getEno() {
 		return eno;
 	}

@@ -21,7 +21,12 @@
 	
 	<!-- mapping of hbm.xml to cfg.xml -->
 	
-	<mapping resource="emp.hbm.xml"/>
+	<!--  <mapping resource="emp.hbm.xml"/>  -->
+	<mapping class="com.pojo.studPojoAnnotation" />
+		<mapping class="com.pojo.vendorPojo" />
+	
+		<mapping class="com.pojo.customerPojo" />
+	
 	
 	</session-factory>
 	

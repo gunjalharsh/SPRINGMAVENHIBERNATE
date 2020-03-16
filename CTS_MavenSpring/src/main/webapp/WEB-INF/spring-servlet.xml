@@ -21,7 +21,7 @@
         
         
         <!-- Provide support for component scanning DI(Controllers location) -->
-        <context:component-scan base-package="com.cts"/>
+        <context:component-scan base-package="com.cts,com.dao"/>
         
         <context:property-placeholder location="classpath:mydb.properties"/>
         <!-- View layers location -->

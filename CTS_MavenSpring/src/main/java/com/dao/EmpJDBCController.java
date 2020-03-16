@@ -43,4 +43,20 @@ public class EmpJDBCController {
 				});
 		
 	}
+	
+	public int delete1(EmployeeBean p)
+	{
+		String sql2 = "delete from Emp2 where name="+"'"+p.getName()+"'";
+		return template1.update(sql2);
+		
+	}
+	
+	public int update1(EmployeeBean p)
+	{
+		String sql3 = "UPDATE Emp2 SET salary = "+p.getPhoneUpdate()+" WHERE name="+"'"+p.getName()+"'";
+		return template1.update(sql3);
+		
+	}
+	
+		
 }

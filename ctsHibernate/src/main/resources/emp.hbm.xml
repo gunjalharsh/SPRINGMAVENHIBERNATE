@@ -14,4 +14,12 @@
     
     
     </class>
+    
+    <!-- Named Query(only pojo name) -->
+    <query name="ctsEmpView">
+    <![CDATA[from Emp_POJO]]>
+    </query>
+    <query name="ctsDeleteRecord">
+    <![CDATA[delete from Emp_POJO where Empno=:delno]]>
+    </query>
     </hibernate-mapping>
