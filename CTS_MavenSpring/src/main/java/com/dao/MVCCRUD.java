@@ -42,10 +42,10 @@ public String deleteEmployee(EmployeeBean emp,@PathVariable("name") String name 
 	
 	//DataUpdate
 	@RequestMapping(value="/update" , method=RequestMethod.GET)
-	public String updateEmployee() {
+	public String updateEmployee(EmployeeBean emp) {
 		
-		//dao2.update1(emp);
-	return "redirect:/UpdateForm";
+		dao2.update1(emp);
+	return "redirect:/viewemps";
 		
 	}   
 }
